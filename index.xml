@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Data &amp; Stats Archive</title>
+<link>https://username.github.io/</link>
+<atom:link href="https://username.github.io/index.xml" rel="self" type="application/rss+xml"/>
+<description>Advanced statistical modeling and data science log</description>
+<generator>quarto-1.8.27</generator>
+<lastBuildDate>Thu, 09 Jul 2026 15:00:00 GMT</lastBuildDate>
+<item>
+  <title>Post With Code</title>
+  <dc:creator>Harlow Malloc</dc:creator>
+  <link>https://username.github.io/posts/post-with-code/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>This is a post with executable code.</p>
+
+
+<!-- -->
+
+
+ ]]></description>
+  <category>news</category>
+  <category>code</category>
+  <category>analysis</category>
+  <guid>https://username.github.io/posts/post-with-code/</guid>
+  <pubDate>Thu, 09 Jul 2026 15:00:00 GMT</pubDate>
+  <media:content url="https://username.github.io/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Understanding Multilevel Modeling: A Visual Approach</title>
+  <dc:creator>Hyeonwoo Jeong</dc:creator>
+  <link>https://username.github.io/posts/welcome/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>In this post, we will explore the foundational concepts of Multilevel Modeling (MLM). When dealing with nested data, standard OLS regression assumptions are often violated due to grouped errors.</p>
+</section>
+<section id="mathematical-formulation" class="level2">
+<h2 class="anchored" data-anchor-id="mathematical-formulation">Mathematical Formulation</h2>
+<p>The random intercept model can be expressed as follows:</p>
+<p><img src="https://latex.codecogs.com/png.latex?y_%7Bij%7D%20=%20%5Cbeta_%7B0j%7D%20+%20%5Cbeta_%7B1%7D%20x_%7Bij%7D%20+%20e_%7Bij%7D"></p>
+</section>
+<section id="data-visualization-with-code" class="level2">
+<h2 class="anchored" data-anchor-id="data-visualization-with-code">Data Visualization with Code</h2>
+<p>We can simulate and plot this relationship directly within our post.</p>
+<p>import matplotlib.pyplot as plt import numpy as np</p>
+</section>
+<section id="sample-plot-generation" class="level1">
+<h1>Sample plot generation</h1>
+<p>x = np.linspace(0, 10, 100) y = 2 + 1.5 * x + np.random.normal(0, 1, 100)</p>
+<p>plt.figure(figsize=(6, 4)) plt.scatter(x, y, alpha=0.6, color=‘blue’) plt.title(“Simulated Nested Data”) plt.show()</p>
+
+
+<!-- -->
+
+</section>
+
+ ]]></description>
+  <category>Statistics</category>
+  <category>Linear Models</category>
+  <guid>https://username.github.io/posts/welcome/</guid>
+  <pubDate>Thu, 09 Jul 2026 15:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

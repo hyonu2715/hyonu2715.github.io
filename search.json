@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Understanding Multilevel Modeling: A Visual Approach",
+    "section": "",
+    "text": "In this post, we will explore the foundational concepts of Multilevel Modeling (MLM). When dealing with nested data, standard OLS regression assumptions are often violated due to grouped errors."
+  },
+  {
+    "objectID": "posts/welcome/index.html#introduction",
+    "href": "posts/welcome/index.html#introduction",
+    "title": "Understanding Multilevel Modeling: A Visual Approach",
+    "section": "",
+    "text": "In this post, we will explore the foundational concepts of Multilevel Modeling (MLM). When dealing with nested data, standard OLS regression assumptions are often violated due to grouped errors."
+  },
+  {
+    "objectID": "posts/welcome/index.html#mathematical-formulation",
+    "href": "posts/welcome/index.html#mathematical-formulation",
+    "title": "Understanding Multilevel Modeling: A Visual Approach",
+    "section": "Mathematical Formulation",
+    "text": "Mathematical Formulation\nThe random intercept model can be expressed as follows:\n\\[y_{ij} = \\beta_{0j} + \\beta_{1} x_{ij} + e_{ij}\\]"
+  },
+  {
+    "objectID": "posts/welcome/index.html#data-visualization-with-code",
+    "href": "posts/welcome/index.html#data-visualization-with-code",
+    "title": "Understanding Multilevel Modeling: A Visual Approach",
+    "section": "Data Visualization with Code",
+    "text": "Data Visualization with Code\nWe can simulate and plot this relationship directly within our post.\nimport matplotlib.pyplot as plt import numpy as np"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "eng-stats-blog",
+    "section": "",
+    "text": "Post With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nJul 10, 2026\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nUnderstanding Multilevel Modeling: A Visual Approach\n\n\n\nStatistics\n\nLinear Models\n\n\n\nAn introduction to random intercept models using Python/R\n\n\n\n\n\nJul 10, 2026\n\n\nHyeonwoo Jeong\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  }
+]
