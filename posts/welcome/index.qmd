@@ -1,0 +1,34 @@
+---
+title: "Understanding Multilevel Modeling: A Visual Approach"
+description: "An introduction to random intercept models using Python/R"
+author: "Hyeonwoo Jeong"
+date: "2026-07-10"
+categories: [Statistics, Linear Models]
+---
+
+## Introduction
+
+In this post, we will explore the foundational concepts of Multilevel Modeling (MLM). When dealing with nested data, standard OLS regression assumptions are often violated due to grouped errors.
+
+## Mathematical Formulation
+
+The random intercept model can be expressed as follows:
+
+$$y_{ij} = \beta_{0j} + \beta_{1} x_{ij} + e_{ij}$$
+
+## Data Visualization with Code
+
+We can simulate and plot this relationship directly within our post.
+
+```{python}
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Sample plot generation
+x = np.linspace(0, 10, 100)
+y = 2 + 1.5 * x + np.random.normal(0, 1, 100)
+
+plt.figure(figsize=(6, 4))
+plt.scatter(x, y, alpha=0.6, color='blue')
+plt.title("Simulated Nested Data")
+plt.show()

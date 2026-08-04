@@ -1,0 +1,25 @@
+project:
+  type: website
+
+website:
+  title: "Data & Stats Archive"
+  description: "Advanced statistical modeling and data science log"
+  site-url: https://username.github.io/ # you must change this appropriately for RSS feeds to work properly
+  navbar:
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/username
+#      - icon: linkedin
+#        href: https://www.linkedin.com/in/username
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    code-fold: true          # 독자가 코드를 접고 펼칠 수 있게 설정
+    code-tools: true         # 소스코드 보기 버튼 제공
+    html-math-method: mathjax # LaTeX 수식을 정교하게 렌더링
+
+
